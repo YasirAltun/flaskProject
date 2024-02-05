@@ -1,0 +1,24 @@
+{"intents": [
+        {"tag": "selamlama",
+         "patterns": ["Merhabalar", "Selamlar", "Nas�ls�n", "Naber", "Selam","G�nayd�n"],
+         "responses": ["Merhabalar :)", "Seni g�rd���me sevindim", "Nas�l yard�mc� olabilirim"],
+         "context": ""
+        },
+        {"tag": "ayr�lma",
+         "patterns": ["by", "g�r���r�z", "tekrar g�r��mek �zere", "ben gidiyorum", "bay bay"],
+         "responses": ["g�r���r�z:(", "tekrar konu�mak �zere", "bay bay"],
+         "context": ""
+        },
+        {"tag": "bilgi",
+         "patterns": ["Yapay zeka nedir", "Makine ��renmesini anlatabilir misin","Derin ��renme nedir"],
+          "responses": [ "Matematiksel ve istatistiksel y�ntemler kullanarak mevcut verilerden ��kar�mlar yapmay� sa�layan bir metod","makinelerin d�nyay� ele ge�irme planlar�"],
+         "context": ""
+        },
+        {"tag": "learn",
+         "patterns": ["Veri Bilimini nas�l ��renebilirim", "Yapay zeka ��renmeye nereden ba�layabilirim", "Derin ��renme i�i hangi kitaplar okunmal�"],
+         "responses": ["Online kurslar ile ��renebilirsiniz","Deep Learning with python kitab�n� okuyabilirsiniz"],
+         "context": ""
+        }
+
+ ]
+}
